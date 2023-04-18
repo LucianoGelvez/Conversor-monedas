@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+  
+}
+         
+.img-menu{
+background-image: url('../Imagenes/menu-img.png');
+
+}
+.ingresar{
+   
+    width: 20vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ingresar-columna{
+    width: 60%;
+    height: 80%;
+    border: 2px rgb(0, 72, 255) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boton-login{
+    border: 2px rgb(0, 255, 170) solid;
+}
