@@ -1,15 +1,31 @@
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 90%;
+}
+
+
+.form {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 35vh;
+    margin: 0 auto;
+}
+
 .home{
     display: flex;
-  
+    border: 2px rgb(255, 0, 251) solid;
+    background-color: orange;
 }
-         
-.img-menu{
-background-image: url('../Imagenes/menu-img.png');
 
-}
-.ingresar{
-   
-    width: 20vw;
+.home_ingresar{
+    width: 25vw;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -17,16 +33,177 @@ background-image: url('../Imagenes/menu-img.png');
     
 }
 
-.ingresar-columna{
+.home_ingresar-columna{
     width: 60%;
     height: 80%;
-    border: 2px rgb(0, 72, 255) solid;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: rgb(0, 153, 255);
 }
 
-.boton-login{
-    border: 2px rgb(0, 255, 170) solid;
+.home_ingresar-columna_boton-login{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.home_articulo-uno_imagen{
+    width: 75vw;
+}
+
+.iniciar-sesion{
+    border: 2px red solid;
+    display: flex;
+    height: 550px;
+}
+
+.iniciar-sesion_articulo-uno{
+    background-color: #FFFFFF;
+    color:rgb(0, 183, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciar-sesion_articulo-dos{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border: 2px red solid;
+}
+
+
+.menu-usuario{
+    display: flex;
+    border: solid 3px blue;
+    height: 50vw;
+}
+
+
+.menu-usuario_articulo-uno{
+    background-color: rgb(0, 153, 255);
+    
+    width: 25vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-usuario_articulo-uno_link{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-usuario_articulo-uno_logo{
+    margin-top: 50px;
+}
+
+.menu-usuario_articulo-dos{
+    background-color: #FFFFFF;
+    width: 75vw;
+
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-salir{
+    height: 0px;
+    position: relative;
+    top: 1vw;
+    left: 90vw;
+}
+
+.menu-usuario_articulo-dos_salir{
+    align-self: flex-end;
+}
+
+.menu-usuario_texto{
+    text-align: justify;
+    width: 80%;
+    margin-left: 40px;
+    color: black;
+}
+
+.menu-usuario_titulo{
+    margin-top: 70px;
+    background-color: rgb(80, 167, 225);
+}
+
+/* REGISTRO DE RESERVAS */
+.reservas {
+    display: flex;
+    width: 100%;
+    background-color: orange;
+}
+.reservas_art1{
+  background-color: orange;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color:#0C8AC7;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.reservas_art1_form{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+
+
+  width: 50%;
+}
+
+.reservas_art1_form label{
+    margin-top: 10%;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+
+}
+.reservas_art1_form input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color: grey;
+    margin-top: 5%;
+}
+.reservas_art1_form select {
+    background-color: aliceblue;
+    color: black;
+    padding: 15px;
+    margin-top: 5%;
+}
+.reservas_art2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: #0C8AC7;
+}
+.reservas_art2_logo{
+    margin-top: 20px;
+}
+.reservas_art1_form_button{
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+    color: aliceblue;
+    margin-top: 40px;
+}
+.reservas_art1_form_button button{
+    background-color: #0C8AC7;
+    color: #FFFFFF;
+}
+
